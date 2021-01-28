@@ -1,1 +1,10 @@
-# cod2020-mutiple-cycles-CPU
+# 计算机组成原理2020大作业
+实现了一个多周期CPU，分五个指令周期，实现了：
+- ecall,ebreak等异常
+- 页表查询与TLB
+- 时钟频率提升至150Hz
+分模块设计，大概有一下几个模块：
+- ALU 逻辑运算单元
+- MMU 页表查询，TLB与访存模块
+- DECODER 译码模块
+- REGFILE 寄存器堆模块
